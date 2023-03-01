@@ -44,6 +44,31 @@ a:hover {
     padding-right: 0;
 }
 
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.container_heading {
+    width: 62%;
+}
+
+.container_heading_small {
+    width: 45%;
+}
+
+.container_quote {
+    width: 57%;
+}
+
+.quote {
+    font-size: 20px;
+}
+
+.quote_light {
+    font-weight: 100;
+}
+
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -679,6 +704,7 @@ a {
 p {
     font-size: 11px;
 }
+
 
 .tight-width-whitespace {
     max-width: 600px;
