@@ -729,6 +729,7 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
     display: block;
+    margin-bottom: 20px;
 }
 
 h2 {
