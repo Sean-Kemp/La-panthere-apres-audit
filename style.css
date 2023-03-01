@@ -665,6 +665,11 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
+.img-responsive {
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -865,7 +870,6 @@ h4 {
 }
 
 
-
 @media (max-width: 767px) {
     .page-container {
         overflow-x: hidden;
@@ -987,8 +991,38 @@ h4 {
     .voffset-lg {
         margin-top: 30px;
     }
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+    .container_heading, .container_heading_small, .container_quote {
+        width: 90%;
+    }
+    .portfolio-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio-card {
+        margin-top: 60px;
+    }
+    .portfolio-row {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
     form {
         padding: 5px;
+    }
+    .social {
+        display: flex;
+        justify-content: space-around;
+    }
+    .partenaires {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
     }
     .close-lightbox {
         display: inline-block;
