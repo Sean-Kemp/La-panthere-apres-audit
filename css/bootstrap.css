@@ -7962,39 +7962,6 @@ button.close {
     }
 }
 
-@media (min-width:1200px) {
-    .visible-lg {
-        display: block !important
-    }
-    table.visible-lg {
-        display: table !important
-    }
-    tr.visible-lg {
-        display: table-row !important
-    }
-    td.visible-lg,
-    th.visible-lg {
-        display: table-cell !important
-    }
-}
-
-@media (min-width:1200px) {
-    .visible-lg-block {
-        display: block !important
-    }
-}
-
-@media (min-width:1200px) {
-    .visible-lg-inline {
-        display: inline !important
-    }
-}
-
-@media (min-width:1200px) {
-    .visible-lg-inline-block {
-        display: inline-block !important
-    }
-}
 
 @media (max-width:767px) {
     .hidden-xs {
