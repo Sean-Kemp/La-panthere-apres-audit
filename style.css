@@ -28,7 +28,7 @@ a:hover {
 }
 
 .bloc {
-    width: 100%;
+    width: auto;
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
@@ -351,7 +351,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -531,6 +531,12 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
@@ -553,7 +559,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 16px;
+    font-size: 18px;
     opacity: 1;
 }
 
@@ -684,10 +690,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
-}
-
-.container {
-    max-width: 1000px;
+    font-size: 18px;
 }
 
 .hero-bloc-text {
@@ -708,11 +711,6 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 16px;
-}
-
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -723,7 +721,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -740,7 +738,7 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -752,9 +750,7 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
+
 
 h4 {
     color: #333333!important;
@@ -801,20 +797,26 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #EE7034;
+}
+
+.bloc-6-text {
+    color: white;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #EE7034!important;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #EE7034;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #EE7034!important;
     color: #FFFFFF!important;
 }
 
@@ -827,7 +829,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #EE7034!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -853,6 +855,11 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+.contact-heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 
@@ -1037,6 +1044,9 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .form-group {
+        width: 100%;
     }
 }
 
