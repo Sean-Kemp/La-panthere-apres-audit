@@ -50,7 +50,7 @@ a:hover {
 }
 
 .container_heading {
-    width: 62%;
+    width: 68%;
     margin-bottom: 40px;
 }
 
@@ -159,7 +159,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -801,7 +801,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #EE7034;
+    background-color: #CA4D11;
 }
 
 .bloc-6-text {
@@ -809,18 +809,16 @@ h4 {
 }
 
 .tc-white {
-    color: #EE7034!important;
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: white;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #EE7034;
+    background: #CA4D11;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #EE7034!important;
+    background: #CA4D11!important;
     color: #FFFFFF!important;
 }
 
@@ -833,11 +831,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #EE7034!important;
+    color: #CA4D11!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #CA4D11!important;
 }
 
 .icon-dark-slate-blue {
